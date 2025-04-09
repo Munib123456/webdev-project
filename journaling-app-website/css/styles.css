@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header, nav, footer {
+    background-color: #4a90e2;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .hero img.logo {
+    width: 100px;
+  }
+  
+  .hero img.mockup {
+    width: 300px;
+    margin-top: 1rem;
+  }
+  
+  .reviews blockquote {
+    font-style: italic;
+    background-color: #fff;
+    padding: 1rem;
+    border-left: 4px solid #4a90e2;
+    margin: 1rem 0;
+  }
+  
